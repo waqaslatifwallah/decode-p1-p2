@@ -16,7 +16,7 @@
       <!-- navigation -->
       <nav class="navigation">
         <input type="checkbox" id="chk-box" />
-        <label for="chk-box">
+        <label for="chk-box" class="burger-icon">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             height="32"
@@ -41,31 +41,38 @@
           </li>
           <li><a href="#">Contact</a></li>
         </ul>
+        <label for="chk-box" class="background-overly"></label>
         <div class="mobile-menue">
-          <label for="chk-box">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="32"
-              viewBox="0 -960 960 960"
-              width="32"
-            >
-              <path
-                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
-              />
-            </svg>
-          </label>
-
-          <li><a href="#">Home</a></li>
-          <li><a href="#">NavPages</a></li>
-          <li>
-            <a href="#"> Links <strong>+</strong></a>
-            <div class="drop-down-mobile">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+          <div class="mobile-main-menu">
+            <!-- logo -->
+            <div class="logo-offcanvus">
+              <h2>Waqas</h2>
             </div>
-          </li>
-          <li><a href="#">Contact</a></li>
+            <label for="chk-box" id="cross-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="32"
+                viewBox="0 -960 960 960"
+                width="32"
+              >
+                <path
+                  d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                />
+              </svg>
+            </label>
+
+            <li><a href="#">Home</a></li>
+            <li><a href="#">NavPages</a></li>
+            <li>
+              <a href="#"> Links <strong>+</strong></a>
+              <div class="drop-down-mobile">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </li>
+            <li><a href="#">Contact</a></li>
+          </div>
         </div>
       </nav>
     </header>
